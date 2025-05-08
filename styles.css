@@ -1,37 +1,51 @@
 body{
-    background-color: #05088de8;
-    color: #000000  ;
+    background-color: #252b2b;
+    color: #efdfc5;
 }
 .body2{
     background-color: #000000;
+    color: #efdfc5;
 }
 .body3{
-    background-color: rgba(158, 37, 0, 0.986);
-    color: rgb(255, 255, 255);
+  background-color: #252b2b;
+    color: #efdfc5;
+}
+.body4{
+  background-color: #252b2b;
+    color: #efdfc5;
+}
+.nav{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #380f17;
 }
 nav a:hover{
-    color: #b17505
+    color: #4c4f54
 }
 nav a{
     position: relative;
     display: inline-block; 
     font: 1em sans-serif;
-    color: #000000;
+    color: #efdfc5;
     padding: 0 23px;
     text-decoration: none;
 }
 
  .p{
-    color: rgb(5, 5, 5);
+    
     animation: slideIn 2s ease-out forwards;
     transform: translateX(-100%);
     opacity: 0; 
  }
 .h1{
-    color: rgb(0, 0, 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
     animation: slideIn 2s ease-out forwards;
     transform: translateX(-100%);
     opacity: 0;
+}
+.h4{
+  animation: slideIn 2s ease-out forwards;
+  transform: translateX(-100%);
+  opacity: 0;
 }
 @keyframes slideIn {
     to {
@@ -48,3 +62,15 @@ nav a{
       transform: translateX(0);
     }
   }
+  .shape{
+    border-radius: 2rem;
+  }
+  .slide-in-right {
+    transform: translateX(100%);
+    animation: slideInRight 1s ease-out forwards;
+  }
+  @keyframes slideInRight {
+    to {
+      transform: translateX(0);
+    }
+}
